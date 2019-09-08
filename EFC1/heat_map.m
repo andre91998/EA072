@@ -1,3 +1,11 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Author: André Barros de Medeiros
+%Date:09/05/2019
+%Description: Display heatmaps for each of the 10 classes to help in the
+%interpetability of the model
+%Copyright: free to use, copy, and modify
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 for n=1:1:10
     i=1;
     H=zeros(28,28);

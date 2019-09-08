@@ -1,32 +1,32 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Author: André Barros de Medeiros
 %Date:09/05/2019
-%Description: 1007
+%Description: Compute Confusion Matrix to make model more interpretable
 %Copyright: free to use, copy, and modify
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 clear all;
-%Data Matrix
-load('data.mat');
+load('data.mat');%Data Matrix
+
 %Parameter Matrix
 W=(-1 + 2*rand(785,10))/10;
 W(:,1)=1;
 
-regfactor = 1007; %determined with regfactor_refined.m
 %dividing X and S into training and validation
 Xtrain=X(1:40000,:);
 Xval=X(40001:60000,:);
 Strain=S(1:40000,:);
 Sval=S(40001:60000,:);
-%calculate parameter matrix
-W=(inv((Xtrain.')*Xtrain+(regfactor)*(eye(784,784)))*(Xtrain.')*Strain);
-%S calculated
-Sc=Xval*W;
-%store positions of 4 wrongly classified images
-Wrong=zeros(1,4);
+
+regfactor = 1007; %determined with regfactor_refined.m
+Wrong=zeros(1,4);%store positions of 4 wrongly classified images
 e=1; %counting variable for wrongly classified images
 
-%Confusion Matrix%
+%calculate parameter matrix and classification matrix
+W=(inv((Xtrain.')*Xtrain+(regfactor)*(eye(784,784)))*(Xtrain.')*Strain);
+Sc=Xval*W;
+
+%Compute Confusion Matrix%
 ConfM=zeros(10,10);
 for j = 1:1:20000
     Ic=zeros(1,1);
