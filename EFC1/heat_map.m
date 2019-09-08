@@ -1,6 +1,6 @@
 for n=1:1:10
     i=1;
-    H=zeros(10,10);
+    H=zeros(28,28);
     for j=1:1:784
         r=rem(j,28);
         if r==0

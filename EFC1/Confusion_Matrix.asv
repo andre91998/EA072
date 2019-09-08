@@ -22,9 +22,8 @@ Sval=S(40001:60000,:);
 W=(inv((Xtrain.')*Xtrain+(regfactor)*(eye(784,784)))*(Xtrain.')*Strain);
 %S calculated
 Sc=Xval*W;
-%store positions of 4 wrongly classified images
-Wrong=zeros(1,4);
-e=1; %counting variable for wrongly classified images
+%store position of wrongly classified
+Wrong=zeros(4,2);
 
 %Confusion Matrix%
 ConfM=zeros(10,10);
@@ -38,28 +37,7 @@ for j = 1:1:20000
     end
     if I(1)~=Ic(1)
         ConfM(I,Ic)=ConfM(I,Ic)+1;
-        if e<=4
-            Wrong(e)=40000+j;
-            e=e+1;
-        end
     end
 end
 
 ConfM;
-
-%Generate Images of wrongly classified images
-for n=1:1:4
-    i=1;
-    H=zeros(24,24);
-    for j=1:1:784
-        r=rem(j,28);
-        if r==0
-            i=i+1;
-            r=1;
-        end
-        H(r,i)=X(Wrong(n),j);
-    end
-    [Me,Ie]=max(S((Wrong(n)),1:10),[],'linear');
-    figure(n);
-    heatmap(H,'GridVisible','off','Colormap',gray,'Title', Ie);
-end
