@@ -21,7 +21,7 @@ Sval=S(50001:60000,:);
 
 %Hidden Layer Matrix (H)
 neuron_weights=StdDev*randn(784,500)+Mean;
-Hi=tanh(Xtrain*(neuron_weights));
+Hi=radbas(Xtrain*(neuron_weights));
 um=ones(50000,1);
 H=[Hi um];
 
