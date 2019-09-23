@@ -1,31 +1,33 @@
 # EA072
  AI development and deep learning
 
-Parte 1: Inteligência Computacional
+Part 1: Computer Intelligence
 
-Tópico 1 (Parte 1): Redes Neurais Artificiais e Máquinas de Aprendizado
+       Topic 1 (Part 1): Artificial Neural Networks and Learning Machines
+       
+       Topic 1 (Part 2): Deep Learning
 
-Tópico 2: Computação Evolutiva
+       Topic 2: Evolutionary Computation
 
-Tópico 3: Sistemas Nebulosos
+       Topic 3: Fuzzy Systems
 
-Tópico 4: Introdução a Outras Técnicas de Computação Natural 
+       Topic 4: Intro to other techniques in the area of Natural Computation 
 
-Parte 2: Outras Técnicas de Inteligência Artificial
+Part 2: Other Artificial Intelligence Techniques
 
-Tópico 5: Lógica Matemática, Representação e Inferência
+       Topic 5: Mathmatical Logic, Representations and Inference
 
-Tópico 6: Sistemas Baseados em Regras e Árvores de Decisão
+       Topic 6: Systems based on Rules and Decision Trees
 
-Tópico 7: Representação do Conhecimento e Solução de Problemas
+       Topic 7: Representing Knowledge and Solving Problems
 
-Tópico 8: Estruturas e Estratégias de Busca
+       Topic 8: Structures and Search Strategies
 
-Tópico 9: Teoria de Jogos
+       Topic 9: Game Theory
 
-Tópico 10: Raciocínio Probabilístico
+       Topic 10: Probabilistic Thinking
 
-Tópico 11: Sistemas Complexos e Redes Complexas
+       Topic 11: Complex Systems and Networks
 
-Tópico 12: Agentes Inteligentes e Robótica Autônoma
+       Topic 12: Intelligent Actuators and Autonomous Robotics
 
