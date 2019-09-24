@@ -224,7 +224,7 @@ for n=1:1:10
         title=0;
     end
     figure(n+8);
-    heatmap(H,'GridVisible','off','Colormap',pink,'Title', title);
+    heatmap(H,'GridVisible','off','Colormap',parula,'Title', title);
 end
 
 %----------------------------------End Section---------------------------------%

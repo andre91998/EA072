@@ -5,10 +5,7 @@
 %Date:09/16/2019
 %Copyright: free to use, copy, and modify
 %Description: Convolutional Network to classify MNIST dataset images
-%Important: Layers: 3 (512 neurons, 512, 10 neurons)
-%           Epochs: 5
-%           Dropout: 0.5 (third layer)
-%           Activation Function: RELU (first layer)
+%Important: Activation Function: RELU (first layer)
 %           Optimizer Algorithm: ADAM
 %           Loss Function: Cross Entropy
 %
