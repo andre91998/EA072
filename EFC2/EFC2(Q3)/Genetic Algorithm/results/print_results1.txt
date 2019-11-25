@@ -1,0 +1,19 @@
+----------Genetic Algorithm Properties----------
+Number of Cities   48
+Population Size    500
+Max. Generation    500
+k Value            3
+Elitism Value      1
+Force Uniqueness   false
+Local Search Rate  0.0
+Crossover Type     UNIFORM_ORDER
+Crossover Rate     90.0%
+Mutation Type      INSERTION
+Mutation Rate      4.0%
+-----------Genetic Algorithm Results------------
+Average Distance of First Generation  159499
+Average Distance of Last Generation   37533
+Best Distance of First Generation     124462
+Best Distance of Last Generation      36712
+Area Under Average Distance           29406339
+Area Under Average Distance           24725301

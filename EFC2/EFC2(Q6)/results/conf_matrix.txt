@@ -1,0 +1,35 @@
+Variable 1		TRUE	FALSE				
+V8 true	V9 true	1	0				
+V8 true	V9 false	0	1				
+V8 false	V9 true	0	1				
+V8 false	V9 false	1	0				
+							
+Variable 2	State1	State2	State3	State4	State5	State6	State7
+V5 true	0.2633	0.1904	0.1769	0.1614	0.1182	0.0655	0.0216
+V5 false	0.1159	0.1414	0.1283	0.1261	0.1657	0.1548	0.1677
+							
+Variable 3	TRUE	FALSE					
+V4 true	0.3373	0.6627					
+V4 false	0.9802	0.0198					
+							
+Variable 4	TRUE	FALSE					
+V5 true	0.9549	0.4051					
+V5 false	0.7509	0.2491					
+							
+Variable 5	TRUE	FALSE					
+	0.1481	0.8519					
+							
+Variable 6		TRUE	FALSE				
+V5 true	V8 true	0.8788	0.1212				
+V5 true	V8 false	0.5888	4112				
+V5 false	V8 true	0.0528	0.9472				
+V5 false	V8 false	0.1587	0.8413				
+							
+Variable 7	TRUE	FALSE					
+	0.4972	0.5028					
+							
+Variable 8	TRUE	FALSE					
+	0.482	0.518					
+							
+Variable 9	TRUE	FALSE					
+	0.5022	0.4978					
