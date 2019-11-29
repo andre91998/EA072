@@ -4,9 +4,9 @@
 
 ## Traveling Salesman Problem (Q3)
 
-#### Kohonen Map
+#### Q3.1 - Kohonen Map
 
-#### Genetic Algorithm
+#### Q3.2 - Genetic Algorithm
 
 ## Formula Inference with Eureqa (Q4)
 
