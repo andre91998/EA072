@@ -7,7 +7,9 @@
 
 Where y is the output matrix from the training data. We then obtain that, since we cannot guarantee that X has a complete rank: 
 
-![](https://github.com/andre91998/EA072/blob/master/EFC1/W.PNG).
+  <p align="center">
+  <img src=https://github.com/andre91998/EA072/blob/master/EFC1/W.PNG />
+</p>
 
 Where lambda we call the "regularization coefficient", which has only one value for all ten classes. A good value for lambda should be set. The search for this value is done by seperating the data set into training and validation (two thirds, one third respectively, but this can be easily altered). We then train the model for the following values: {2<sup>-10</sup>,2<sup>-8</sup>,...,2<sup>10</sup>}. With this search, we analyze the classification error and select a interval for a "refined" search so as to obtain the optimal lambda. Finally, having obtained the optimal value for the "regularization coefficient", the final classification model can be obtained using the entire dataset (60000 samples).
 
